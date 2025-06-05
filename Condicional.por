@@ -1,16 +1,16 @@
 Algoritmo "teste_condicional"
 Var
-       x : inteiro
+       x, hora : inteiro
+
 Inicio
 
-       x <- 5
+      escreval ("Digite uma hora do dia ")
+      leia(hora)
        
-       escreval ("bom dia")
-       
-       se x < 0 entao
-          escreval ("Boa tarde")
-          fimse
-          
-       escreval ("Boa noite")
+      se hora < 12 entao
+      escreval (" Bom dia")
+      senao
+      escreval ("Boa tarde")
+      fimse
           
 Fimalgoritmo
