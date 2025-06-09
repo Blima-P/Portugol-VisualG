@@ -1,4 +1,4 @@
-Algoritmo "troco-verificado-incompleto"
+Algoritmo "troco-verificado"
 
 Var
 
@@ -15,7 +15,8 @@ Inicio
       escreval ("Dinheiro recebido: ")
       leia(dinheiro)
       
-      troco <-
+      se dinheiro >= (preco * quantidade) entao
+       troco <- dinheiro - preco * quantidade
+       escreval("troco = ", troco:4:2)
 
 Fimalgoritmo
-
