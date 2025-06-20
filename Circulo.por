@@ -12,4 +12,4 @@ Inicio
                        escreval()
                        
     escreval("Area: ",area:5:3)
-Fimalgoritmo
+Fimalgoritmo 1 2 3
