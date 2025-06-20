@@ -1,4 +1,4 @@
-Algoritmo "menor-de-tres"
+httAlgoritmo "menor-de-tres"
 Var
 
       Primeiro,segundo,terceiro,menor : inteiro
