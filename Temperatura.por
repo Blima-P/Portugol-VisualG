@@ -1,25 +1,29 @@
-Algoritmo "Temperatura "
+Algoritmo "lanchonete"
 
 Var
-
- fhr, Cel : real
- escala : caractere
-   
+      cod, qnt : inteiro
+   valor : real
 Inicio
+        Escreval("Codigo do produto comprado: ")
+ leia (cod)
 
-      Escreval ("Voce vai digitar a temperatura em qual escala (C/F)? ")
-      leia (escala)
-      se escala = "f" entao
-      Escreval("Digite a temperatura em fahrenheit : ")
-                       Leia (fhr)
-           Cel <- 5 / 9 * (fhr - 32)
-      Escreval ("Temperatura equivalente em Celsius:", Cel:4:2)
-      senao
-         
-      Escreval("Digite a temperatura em celsius : ")
-      Leia (Cel)
-      fhr <- 9 * cel / 5 + 32
-       Escreval ("Temperatura equivalente em fahrenheit:", fhr:4:2)
-      fimse
+ escreval ("quantidade comprada")
+ leia (qnt)
+
+ escolha cod
+ caso 1
+    valor <- 5.0 * qnt
+ caso 2
+    valor <- 3.5 * qnt
+ caso 3
+    valor <- 4.8 * qnt
+ caso 4
+    valor <- 8.9 * qnt
+ caso 5
+    valor <- 7.32 * qnt
+  fimescolha
+
+    escreval (" Valor a pagar: ", valor:4:2)
+
 
 Fimalgoritmo
